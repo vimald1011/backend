@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 // app.use(cors());
-app.use(cors({ origin: "http://localhost:4200" }));
+app.use(cors({ origin: "https://www.adarshcodes.com" }));
 
 app.use(express.json());
 
